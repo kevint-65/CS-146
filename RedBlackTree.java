@@ -438,9 +438,7 @@ public class RedBlackTree {
 		
 
 		// Adding the nodes into the Patient array
-		Node p[] = { Node1, Node2, Node3, Node4, Node5, Node6, Node7, 
-				Node8, Node9, Node10, Node11, Node12, Node13,
-				Node14, Node15, Node16, Node17, Node18, Node19, Node20 };
+		Node p[] = { Node1, Node2, Node3, Node4, Node5 };
 
 		System.out.println("Patient List");
 		for (int i = 0; i < p.length; i++) {
