@@ -429,26 +429,13 @@ public class RedBlackTree {
 		int input = 1;
 		// Declare new Node with Parameters. Name and Random Priority Key
 		//NOTE: Random Generator can take in smaller or larger values
-		Node Node1 = new Node(new Patient("Dr. Wu:           ", random.nextInt(500)));
-		Node Node2 = new Node(new Patient("Bedi Pranika:     ", random.nextInt(500)));
-		Node Node3 = new Node(new Patient("Ronald Green:     ", random.nextInt(500)));
-		Node Node4 = new Node(new Patient("Kevin Tieu:       ", random.nextInt(500)));
-		Node Node5 = new Node(new Patient("Allan Ho:         ", random.nextInt(500)));
-		Node Node6 = new Node(new Patient("Timonthy Ho:      ", random.nextInt(500)));
-		Node Node7 = new Node(new Patient("Axel Hugo:        ", random.nextInt(500)));
-		Node Node8 = new Node(new Patient("Justin LeinBach:  ", random.nextInt(500)));
-		Node Node9 = new Node(new Patient("Alex Len:         ", random.nextInt(500)));
-		Node Node10 = new Node(new Patient("Anish Patel:      ", random.nextInt(500)));
-		Node Node11 = new Node(new Patient("Parth Patel:      ", random.nextInt(500)));
-		Node Node12 = new Node(new Patient("Minh Phan:        ", random.nextInt(500)));
-		Node Node13 = new Node(new Patient("Tommy Phan:       ", random.nextInt(500)));
-		Node Node14 = new Node(new Patient("Luis Reyes:       ", random.nextInt(500)));
-		Node Node15 = new Node(new Patient("Paras Segal:      ", random.nextInt(500)));
-		Node Node16 = new Node(new Patient("Karan Sheth:      ", random.nextInt(500)));
-		Node Node17 = new Node(new Patient("Yuta Sugiura:     ", random.nextInt(500)));
-		Node Node18 = new Node(new Patient("Tong Hung:        ", random.nextInt(500)));
-		Node Node19 = new Node(new Patient("Solbi You:        ", random.nextInt(500)));
-		Node Node20 = new Node(new Patient("John McGinley:    ", random.nextInt(500)));
+		
+		hashTable.insert(new Patient("Patient 1  ", random.nextInt(100)));
+		hashTable.insert(new Patient("Patient 2  ", random.nextInt(100)));
+		hashTable.insert(new Patient("Patient 3  ", random.nextInt(100)));
+		hashTable.insert(new Patient("Patient 4  ", random.nextInt(100)));
+		hashTable.insert(new Patient("Patient 5  ", random.nextInt(100)));
+		
 
 		// Adding the nodes into the Patient array
 		Node p[] = { Node1, Node2, Node3, Node4, Node5, Node6, Node7, 
